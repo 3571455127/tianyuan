@@ -546,6 +546,16 @@ header .navbar-fixed-top .share ul {
     padding: 0 30px;
 }
 
+.index .product .product-boxs .wap-proboxs {
+    display: none;
+}
+
+.index .product .product-boxs .pc-proboxs .lists {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
 /* product */
 
 /* advantages */
@@ -778,7 +788,8 @@ header .navbar-fixed-top .share ul {
     }
 
     .index .pc-banner,
-    .index .product .pc-product {
+    .index .product .pc-product,
+    .index .product .product-boxs .pc-proboxs {
         display: none;
     }
 
@@ -786,7 +797,8 @@ header .navbar-fixed-top .share ul {
     .index .choose .content .box,
     .index .wap-banner,
     .index .product .product-boxs .left,
-    .index .advantages .content {
+    .index .advantages .content,
+    .index .product .product-boxs .wap-proboxs {
         display: block;
     }
 
